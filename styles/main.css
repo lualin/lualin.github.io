@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Bellota Text";
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+#toggle-nav {
+  display: none;
+  margin: auto;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  background: #C7D9D1;
+  padding: 16px;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.navbar-menu .navbar-items {
+  list-style: none;
+  display: flex;
+}
+.navbar-menu .navbar-items li {
+  margin: 40px;
+}
+.navbar-menu .navbar-items li a {
+  text-decoration: none;
+  color: #346773;
+  font-size: 20px;
+  font-weight: 400;
+  transition: all 0.3s ease-out;
+  position: relative;
+  text-transform: uppercase;
+}
+.navbar-menu .navbar-items li a::before {
+  content: attr(data-item);
+  transition: 0.5s;
+  color: #8254ff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  overflow: hidden;
+}
+.navbar-menu .navbar-items li a:hover::before {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu .navbar-items li a {
+    font-size: 14px;
+  }
+  .navbar-menu .navbar-items li {
+    margin: 10px;
+  }
+}
+.fullscreen {
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.header-image {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-image: url("../img/DSC01807.JPG");
+  background-position: 50% 50%;
+  background-size: cover;
+  width: 100vw;
+}
+.header-image .container {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  position: relative;
+  align-content: center;
+}
+@media (max-width: 768px) {
+  .header-image .contents {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
