@@ -176,10 +176,21 @@ section {
   box-shadow: 0 6px 6px rgba(202, 206, 140, 0.6);
 }
 
+.sprint-1 {
+  background-image: url("/assets/img/blog-header-1.jpg");
+}
+
+.sprint-2 {
+  background-image: url("/assets/img/blog-header-2.jpg");
+}
+
+.sprint-3 {
+  background-image: url("/assets/img/blog-header-3.jpg");
+}
+
 .blog-header-image {
   height: 30vh;
   min-height: 300px;
-  background-image: url("/assets/img/blog-header.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -242,16 +253,27 @@ section {
   line-height: 300%;
 }
 .content-list h2 {
+  color: #a7873d;
   font-size: 2.5rem;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
 .content-list h3 {
+  color: #c09e52;
   font-size: 2rem;
 }
 .content-list p {
   font-size: 1.8rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 .content-list img {
-  width: 50%;
+  display: block;
+  width: 25%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: rgb(190, 184, 184) dotted 0.5px;
 }
 @media (max-width: 768px) {
   .content-list img {
