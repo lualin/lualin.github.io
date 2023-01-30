@@ -286,6 +286,22 @@ section {
   background-repeat: no-repeat;
 }
 
+.blog-card-image-7 {
+  background: rgba(0, 0, 0, 0.4) url("/assets/img/blog-cards/neuroplasticity.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+.blog-card-image-8 {
+  background: rgba(0, 0, 0, 0.4) url("/assets/img/blog-cards/problem-solving.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
 @-webkit-keyframes changeLetter {
   0% {
     width: 10%;
