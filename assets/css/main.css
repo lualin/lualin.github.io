@@ -201,6 +201,10 @@ section {
   background-image: url("/assets/img/blog-header-3.jpg");
 }
 
+.sprint-4 {
+  background-image: url("/assets/img/blog-header-4.jpg");
+}
+
 .blog-header-image {
   height: 30vh;
   min-height: 300px;
