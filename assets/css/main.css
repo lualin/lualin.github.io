@@ -173,9 +173,19 @@ section {
   font-size: 5rem;
   color: #f4eee0;
 }
+@media (max-width: 768px) {
+  .header-image h1 {
+    font-size: 3rem;
+  }
+}
 .header-image p {
   font-size: 3rem;
   color: #dac699;
+}
+@media (max-width: 768px) {
+  .header-image p {
+    font-size: 1.5rem;
+  }
 }
 .header-image .btn-transparent {
   cursor: pointer;
@@ -238,6 +248,11 @@ section {
 }
 .blog-header-image p {
   font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .blog-header-image p {
+    font-size: 1.5rem;
+  }
 }
 .blog-header-image .btn-transparent {
   cursor: pointer;
