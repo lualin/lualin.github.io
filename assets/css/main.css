@@ -682,7 +682,7 @@ section {
   width: 40%;
   height: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   border: rgb(190, 184, 184) solid 0.5px;
 }
 @media (max-width: 768px) {
