@@ -200,20 +200,28 @@ section {
   box-shadow: 0 6px 6px rgba(202, 206, 140, 0.6);
 }
 
+.tech-1 {
+  background-image: url("/assets/img/blog-header/blog-header-tech-1.jpg");
+}
+
 .sprint-1 {
-  background-image: url("/assets/img/blog-header-1.jpg");
+  background-image: url("/assets/img/blog-header/blog-header-1.jpg");
 }
 
 .sprint-2 {
-  background-image: url("/assets/img/blog-header-2.jpg");
+  background-image: url("/assets/img/blog-header/blog-header-2.jpg");
 }
 
 .sprint-3 {
-  background-image: url("/assets/img/blog-header-3.jpg");
+  background-image: url("/assets/img/blog-header/blog-header-3.jpg");
 }
 
 .sprint-4 {
-  background-image: url("/assets/img/blog-header-4.jpg");
+  background-image: url("/assets/img/blog-header/blog-header-4.jpg");
+}
+
+.sprint-5 {
+  background-image: url("");
 }
 
 .blog-header-image {
@@ -638,6 +646,7 @@ section {
 .content-list {
   display: flex;
   width: 70%;
+  word-break: break-word;
 }
 @media (max-width: 768px) {
   .content-list {
@@ -663,6 +672,8 @@ section {
 .content-list h3 {
   color: #c09e52;
   font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media (max-width: 768px) {
   .content-list h3 {
