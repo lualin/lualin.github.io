@@ -113,8 +113,43 @@
   <section class="content-list container-fluid">
     <div class="row">
       <!-- 1 -->
-      
+      <h2>Infinite loop in Simple Problem</h2>
+      <h3>What was the Problem?</h3>
+      <p>
+        When I have finished the gradebook part which is one of Kata projects, there was an issue that I could not identify what has caused the problem.
+        It was to write codes to create a fresh gradebook with given parameters which was not really hard part but I got stuck in an error which was saying that scores were not in the gradebook.
+        Even though I printed out the result using console.log() at the end of each line to check if each of them was functioning properly and the codes actually returned correct results that I was expecting.
+        The error message still being displayed, so I had to do something to sort these out.
+      </p>
+      <h3>What Problem-Solving Techniques Used?</h3>
+      <p>
+        I have used two techniques as below: <br>
+        1. console.log(): Placing this at the end of each line to check if each line of codes has correct output as expected. <br>
+        2. Checking error message and test file: Checked test file closely to clearly understand what needs to be done to satisfy all the requirements to pass the test then have a look at error messages to know from where it went wrong that resulted not returning the correct output. <br><br>
+        After an hour of struggling with it, I finally found out that one of the variables was spelled wrong by missing a letter at the end of the word. <br>
+        The code to create a value of an object was supposed to be 'gradebook[students[i]].testScores = scores[i]' in a for-loop however I realised that I made the value name as testScore, that has caused not being able to pass the test. <br>
+        Even though the returning output seems to be fine to me however the value name of the object was named incorrectly to pass the test.
+
+      </p>
+      <h3>Feeling Throughout The Process</h3>
+      <p>
+        It was surely annoying that it keeps showing error when I tested the file like hundreds time at some place which I did not know. 
+        However when I finally managed to figure out the problem after struggle, it made me astonishingly happy that I have solved it eventually. <br>
+        The process was not easy as I kept trying other alternative codes to make it work, trying to change the parameters, and extra things to sort that out.
+        And the feeling that came to me when I have realised that the cause of this problem was a missing letter was totally void but it was ok. <br>
+
+      </p>
+      <h3>What Did I Learn?</h3>
+      <p>
+        From this event while doing Kata project, I have learnt a lesson that I should name the variables name more unique and recognisable. <br>
+        Not just limited to variables, it is also importtant to name things like functions and parameters unique so I can know what each of them is there for even I look back the codes in the future.
+      </p>
     </div>
+
+    <!-- 2 -->
+    <h2>Reflection on Confidency of Problem-Solving Technique</h2>
+    <h3>Pseudocode</h3>
+    
   </section>
   <!-- Contents List -->
 

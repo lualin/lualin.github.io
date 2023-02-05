@@ -221,7 +221,7 @@ section {
 }
 
 .sprint-5 {
-  background-image: url("");
+  background-image: url("/assets/img/blog-header/blog-header-5.jpg");
 }
 
 .blog-header-image {
@@ -715,7 +715,7 @@ section {
   text-align: center;
   background-color: #f4eee0;
   overflow: hidden;
-  height: 150px;
+  height: 10rem;
 }
 .footer .footer-title {
   color: #000;
