@@ -341,13 +341,12 @@ section {
   background-blend-mode: darken;
 }
 
-@-webkit-keyframes changeLetter {
-  0% {
-    width: 10%;
-  }
-  100% {
-    width: 80%;
-  }
+.blog-card-image-9 {
+  background: rgba(0, 0, 0, 0.4) url("/assets/img/blog-cards/reflection.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
 }
 
 @keyframes changeLetter {
@@ -411,8 +410,7 @@ section {
   margin-top: 70px;
 }
 .blog-card:hover h3:after {
-  -webkit-animation: changeLetter 0.3s 1 linear;
-          animation: changeLetter 0.3s 1 linear;
+  animation: changeLetter 0.3s 1 linear;
   width: 80%;
 }
 .blog-card h3 {
